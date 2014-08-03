@@ -1,0 +1,19 @@
+datastore
+	append
+	load_metadata
+	save_metadata
+	elements_below_key
+	_check_columns
+	_table_has_column_names
+	_check_data_will_fit_in_memory
+	_nrows (used in test but not itself tested)
+	get_timeframe (used in test but not itself tested)
+	_check_key
+	join_key
+
+	Class Key
+		_check
+		__repr__ 
+
+measurement
+	check_physical_quantity
